@@ -1,6 +1,6 @@
-# The News Dragon — Client (React + Vite)
+# The News Dragon - Client with React and Vite
 
-A modern, responsive news client built with React, Vite and TypeScript. This project demonstrates a clean component-driven architecture, route-based data loading, Tailwind + Bootstrap styling, and Firebase integration scaffolding — ideal as a portfolio piece or production starter for news-style applications.
+A modern, responsive news client built with React, Vite and TypeScript. This project demonstrates a clean component-driven architecture, route-based data loading, Tailwind + Bootstrap styling, and Firebase integration scaffolding - ideal as a portfolio piece or production starter for news-style applications.
 
 ---
 
@@ -10,7 +10,7 @@ Run locally with Vite (instructions below) to preview the app during development
 
 ---
 
-## Highlights / Features
+## Highlights and Features
 
 - Fast development with Vite and React 18
 - Type-safe components and shared types (see [`src/types/News.ts`](src/types/News.ts) and [`src/types/Category.ts`](src/types/Category.ts))
@@ -45,25 +45,50 @@ Run locally with Vite (instructions below) to preview the app during development
 
 ## Getting Started (Developer)
 
-1. Clone the repo:
-   git clone https://github.com/Kawser420/the-news-dragon.git
-2. Install:
+1. **Clone the repo:**
+
+```
+   git clone https://github.com/md-abu-kayser/the-news-dragon.git
+
+```
+
+2. **Install:**
+
+```
    npm install
-3. Development:
+
+```
+
+3. **Development:**
+
+```
    npm run dev
-   - App runs on the configured Vite port (see [vite.config.ts](vite.config.ts))
-4. Type-check:
+
+```
+
+- App runs on the configured Vite port (see [vite.config.ts](vite.config.ts))
+
+4. **Type-check:**
+
+```
    npm run type-check
-5. Build:
+
+```
+
+5. **Build:**
+
+```
    npm run build
 
-Scripts live in: [package.json](package.json)
+```
+
+- Scripts live in: [package.json](package.json)
 
 ---
 
-## Data & API
+## Data and API
 
-Routes in [`src/routes/Routes.tsx`](src/routes/Routes.tsx) use loader fetches like:
+**Routes in [`src/routes/Routes.tsx`](src/routes/Routes.tsx) use loader fetches like:**
 
 - GET http://localhost:5000/news/
 - GET http://localhost:5000/news/:id
@@ -73,7 +98,7 @@ These endpoints are expected from your backend. Adapt URLs or environment variab
 
 ---
 
-## Architecture Notes
+### Architecture Notes
 
 - route loaders provide server data to pages via `useLoaderData()` (see [`Category`](src/pages/Home/Category/Category.tsx) and [`News`](src/pages/News/News/News.tsx))
 - `AuthProvider` centralizes auth state for the UI (`NavigationBar` uses it to render user icon)
@@ -81,7 +106,7 @@ These endpoints are expected from your backend. Adapt URLs or environment variab
 
 ---
 
-## Recommended Improvements
+### Recommended Improvements
 
 - Move backend URLs to environment variables (Vite `.env`).
 - Implement real Firebase Auth flows in [`AuthProvider`](src/providers/AuthProvider.tsx).
@@ -92,10 +117,30 @@ These endpoints are expected from your backend. Adapt URLs or environment variab
 
 ## Contributing
 
-Contributions welcome — follow standard PR workflow, keep commits focused, and add tests for new features.
+Contributions welcome - follow standard PR workflow, keep commits focused, and add tests for new features.
 
 ---
 
-## License
+### License
 
-Open-source. Specify your preferred license here.
+- This project is licensed under the terms of the **[MIT License](./LICENSE)**.
+- You may replace or update the license as needed for client or proprietary projects.
+
+---
+
+### Contact and Maintainer
+
+**Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)  
+**Name:** Md Abu Kayser - Full-Stack Engineer
+
+- **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
+- **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
+- **Project:** _the-news-dragon_
+
+If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
+
+---
+
+**Thank you for reviewing this project!**
+
+---
