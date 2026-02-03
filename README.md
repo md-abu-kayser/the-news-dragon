@@ -98,7 +98,7 @@ These endpoints are expected from your backend. Adapt URLs or environment variab
 
 ---
 
-### Architecture Notes
+## Architecture Notes
 
 - route loaders provide server data to pages via `useLoaderData()` (see [`Category`](src/pages/Home/Category/Category.tsx) and [`News`](src/pages/News/News/News.tsx))
 - `AuthProvider` centralizes auth state for the UI (`NavigationBar` uses it to render user icon)
