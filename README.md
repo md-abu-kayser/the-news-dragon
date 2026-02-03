@@ -128,7 +128,7 @@ Contributions welcome - follow standard PR workflow, keep commits focused, and a
 
 ---
 
-### Contact and Maintainer
+### Contact & Maintainer
 
 - **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
 - **Name:** Md Abu Kayser - Full-Stack Engineer
