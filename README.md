@@ -25,6 +25,10 @@
 [![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 
+<!-- Auth & Security -->
+
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)](https://firebase.google.com/docs)
+
 <!-- Linting & Formatting -->
 
 [![ESLint](https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white)](https://eslint.org/docs/latest/)
@@ -46,6 +50,7 @@
 - TypeScript docs: [https://www.typescriptlang.org/docs/](https://www.typescriptlang.org/docs/)
 - Node.js docs: [https://nodejs.org/](https://nodejs.org/)
 - React docs: [https://react.dev/](https://react.dev/)
+- Firebase docs: [https://firebase.google.com/docs](https://firebase.google.com/docs)
 - ESLint docs: [https://eslint.org/docs/latest/](https://eslint.org/docs/latest/)
 - Prettier docs: [https://prettier.io/docs/](https://prettier.io/docs/)
 - Vite docs: [https://vite.dev/](https://vite.dev/)
