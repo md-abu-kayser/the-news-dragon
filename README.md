@@ -1,4 +1,4 @@
-# The News Dragon - Client with React and Vite
+# The News Dragon - Fast React + Vite News Client
 
 A modern, responsive news client built with React, Vite and TypeScript. This project demonstrates a clean component-driven architecture, route-based data loading, Tailwind + Bootstrap styling, and Firebase integration scaffolding - ideal as a portfolio piece or production starter for news-style applications.
 
@@ -47,8 +47,8 @@ Run locally with Vite (instructions below) to preview the app during development
 
 1. **Clone the repo:**
 
-```
-   git clone https://github.com/md-abu-kayser/the-news-dragon.git
+```bash
+   git clone https://github.com/md-abu-kayser/news-dragon-client.git
 
 ```
 
@@ -61,7 +61,7 @@ Run locally with Vite (instructions below) to preview the app during development
 
 3. **Development:**
 
-```
+```bash
    npm run dev
 
 ```
@@ -77,7 +77,7 @@ Run locally with Vite (instructions below) to preview the app during development
 
 5. **Build:**
 
-```
+```bash
    npm run build
 
 ```
@@ -130,16 +130,13 @@ Contributions welcome - follow standard PR workflow, keep commits focused, and a
 
 ### Contact & Maintainer
 
-- **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
+- **Project:** _news-dragon-client_
 - **Name:** Md Abu Kayser - Full-Stack Engineer
-
-- **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
+- **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
 - **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
-- **Project:** _the-news-dragon_
+- **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
 
 If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
-
----
 
 **Thank you for reviewing this project!**
 
